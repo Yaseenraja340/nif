@@ -1,15 +1,30 @@
-var x = Math.random() * 10; //0-1 (0.1,0.2 upto 1)
-if (x > 8) {
-    console.log("value must be moe thsn ".concat(x));
-}
-else if (x < 5) {
-    console.log("value must be less thsn ".concat(x));
-}
-else {
-    console.log("hhh");
-}
-// now example of round
-// let y=Math.round(Math.random()*20);
-// if (y > 5){
-//     console.log(y)
+// let x=Math.random()*10; //0-1 (0.1,0.2 upto 1)
+// if (x > 8){
+//     console.log(`value must be moe thsn ${x}`)
+// } else if (x < 5){
+//     console.log(`value must be less thsn ${x}`)
+// } else {
+//     console.log("hhh")
 // }
+var country = ["Pakistan", "Turkey", "China"];
+var age = Math.round(Math.random() * 90);
+var domocile = ["sindh", "punjab", "balochistan", "khyber"];
+// let index=Math.random()*10;
+// Domicile= sindh
+if (country[0] === "Pakistan") {
+    if (age >= 18) {
+        console.log("Here is your ticket");
+    }
+    else {
+        console.error("Age Restriction");
+    }
+}
+else if (country[1] == "Turkey")
+    if (age >= 30) {
+    }
+    else {
+    }
+//.....
+else {
+    console.log("Invalid country");
+}
