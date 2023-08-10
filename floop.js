@@ -21,13 +21,16 @@
 //  } //chartat ka matlb ha aleda aleda kary ga like pakistan k sath us k aleda aleda spel
 // }
 //task what is 2 dimentional array
-var num = Math.random() * 10;
-for (var z = 0; z < 5; z++) {
-    // num = Math.random()*10;
-    console.log(num);
-    //     if(num>5){
-    //         console.log("Number is more than 5" + num);     
-    //     } else {
-    // console.log("Number is less than 5" + num);
-}
+// let num = Math.random()*10;
+// for (let z=0;z<5;z++){
+//     // num = Math.random()*10;
+//     console.log(num);
+//     if(num>5){
+//         console.log("Number is more than 5" + num);     
+//     } else {
+// console.log("Number is less than 5" + num);
 //}
+//}
+for (var x = 1; x <= 10; x++) {
+    console.log("2 x ".concat(x, " =").concat(2 * x, " "));
+}
