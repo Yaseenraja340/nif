@@ -33,17 +33,17 @@
 //     console.log("Invalid country")
 // }
 
-let Team =["waheed","yaseen","sultan","arsal"]
-console.log(`Hum sub ka math ha or Raja ${Team[0]} saab captain hayn`)
-console.log(`team ma aik or banda add karna par gya ha so ma Huzaifa ko b add kar raha ma socha ${Team}ko bata du`)
-Team.push("huzaifa")// yh akhit ma add kary ga
-Team.pop() //yeh wala akhri remove kry ga 
-console.log(Team)
-Team.shift() ///yeh wala pehla remove kry ga
-console.log(Team)
-Team.unshift("usama") // yh pehla add kary ga 
-console.log(Team)
-Team.splice(2,0,"Waheed","haseeb")// kahi par b addition karni ho
-console.log(Team)
-let TeamA = Team.slice(0,4)// starting number sy agy or endign number sy pehly pehly tk new array ma
-console.log(TeamA)
+// let Team =["waheed","yaseen","sultan","arsal"]
+// console.log(`Hum sub ka math ha or Raja ${Team[0]} saab captain hayn`)
+// console.log(`team ma aik or banda add karna par gya ha so ma Huzaifa ko b add kar raha ma socha ${Team}ko bata du`)
+// Team.push("huzaifa")// yh akhit ma add kary ga
+// Team.pop() //yeh wala akhri remove kry ga 
+// console.log(Team)
+// Team.shift() ///yeh wala pehla remove kry ga
+// console.log(Team)
+// Team.unshift("usama") // yh pehla add kary ga 
+// console.log(Team)
+// Team.splice(2,0,"Waheed","haseeb")// kahi par b addition karni ho
+// console.log(Team)
+// let TeamA = Team.slice(0,4)// starting number sy agy or endign number sy pehly pehly tk new array ma
+// console.log(TeamA)
